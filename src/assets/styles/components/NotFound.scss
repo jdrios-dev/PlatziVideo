@@ -1,0 +1,50 @@
+.notFound{
+    background-image: linear-gradient(#00909e, #27496d);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px);
+}
+
+h1{
+    font-size:40px;
+    color: white;
+    text-align: center;
+}
+
+.error-num{
+    font-size:8em;
+}
+
+.error-container{
+    border: 2px solid white;;
+    justify-self: center;
+    width: 50%;
+    border-radius: 40px;
+  box-shadow: 014px28pxrgba(0,0,0,0.25), 010px10pxrgba(0,0,0,0.22);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 700px;
+  padding: 60px 60px 40px;
+  width: calc(100% / 2);
+    background-image: linear-gradient(#00909e, #27496d);
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    text-decoration: none;
+  }
