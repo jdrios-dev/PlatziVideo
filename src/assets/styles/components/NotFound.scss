@@ -23,14 +23,14 @@ h1{
     justify-self: center;
     width: 50%;
     border-radius: 40px;
-  box-shadow: 014px28pxrgba(0,0,0,0.25), 010px10pxrgba(0,0,0,0.22);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  min-height: 700px;
-  padding: 60px 60px 40px;
-  width: calc(100% / 2);
+    box-shadow: 014px28pxrgba(0,0,0,0.25), 010px10pxrgba(0,0,0,0.22);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 700px;
+    padding: 60px 60px 40px;
+    width: calc(100% / 2);
     background-image: linear-gradient(#00909e, #27496d);
 }
 
@@ -46,5 +46,6 @@ h1{
     height: 50px;
     letter-spacing: 1px;
     margin: 10px 0px;
-    text-decoration: none;
-  }
+    text-decoration: none;    
+     
+}

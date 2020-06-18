@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import "../assets/styles/components/NotFound.scss";
 
 const NotFound = () => (
@@ -7,7 +8,9 @@ const NotFound = () => (
             <div className="error-container"> 
                 <h1 className="error">No encontrado</h1>
                 <h1 className="error-num">404</h1>
-                <button href="./Home.jsx" className="button">Ir al Home</button>
+                <Link to="/">
+                <button className="button">Ir al Home</button>
+                </Link>
             </div>
 
         </section>
