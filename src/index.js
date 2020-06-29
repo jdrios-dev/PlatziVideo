@@ -6,7 +6,7 @@ import {createStore} from 'redux';
 import reducer from '../src/reducers';
 
 const initialState = {
-        "use":{},
+        "user":{},
         "playing":{},
         "mylist": [],
           "trends": [
